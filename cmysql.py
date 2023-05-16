@@ -33,9 +33,9 @@ import pymysql.cursors
 
 
 # Connect to the database
-connection = pymysql.connect(host='rm-2vcm58w8rgd7p3i9rio.mysql.cn-chengdu.rds.aliyuncs.com',
+connection = pymysql.connect(host='',
                              user='root',
-                             password='Aa337877123',
+                             password='',
                              database='tg',
                              cursorclass=pymysql.cursors.DictCursor)
 
